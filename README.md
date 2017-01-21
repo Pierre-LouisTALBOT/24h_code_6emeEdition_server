@@ -1,4 +1,4 @@
-# 24h_code_6emeEdition_server
+# 24h du code : 6<sup>ème</sup> édition - Côté serveur
 
 ## Installation
 ### NodeJS
