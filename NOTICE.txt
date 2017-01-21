@@ -1,0 +1,20 @@
+Le contenu de ce fichier est uniquement à titre informatif et ne modifie en aucun cas la licence.
+
+Il est bien évidemment autorisé d'ajouter son propre copyright aux modifications ajoutées.
+Ces modifications doivent être placées sous la même licence.
+
+Cette licence ne donne pas le droit d'utiliser les marques déposées en dehors d'un usage raisonnable lors de la description des
+origines du logiciel.
+
+Une version modifiée ne peut avoir le même nom que le logiciel original.
+
+Le nom des auteurs/contributeurs ne peut être utilisé pour promouvoir un produit dérivé.
+
+
+Cette application a été créée pour la 6ème édition des 24h du code du Mans en France.
+Elle à été créée dans le cadre du défi proposé par la société ST Microelectronics : recréer une course de voiture "virtuelle".
+Les auteurs originaux du code font partie de l'équipe "Tarkiflettes" composée de :
+  - FOURNIER Kévin
+  - PARANTHOEN Lucas
+  - TALBOT Pierre-Louis
+Le nom de l'équipe fait référence au nom de l'association crée par Lionel JOIN et Thomas FOUCAULT en 2016.
