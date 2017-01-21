@@ -1,0 +1,596 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Users\\Aurélie\\Downloads\\24hDuCode\\24h_code_6emeEdition_server\\App\\NodeJS\\node.exe',
+1 verbose cli   'C:\\Users\\Aurélie\\Downloads\\24hDuCode\\24h_code_6emeEdition_server\\Data\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'bluetooth-serial-port' ]
+2 info using npm@3.3.6
+3 info using node@v4.2.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData bluetooth-serial-port
+8 silly fetchNamedPackageData bluetooth-serial-port
+9 silly mapToRegistry name bluetooth-serial-port
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/bluetooth-serial-port
+13 verbose request uri https://registry.npmjs.org/bluetooth-serial-port
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 16:43:25
+16 verbose request id 21f9537d0dd844bd
+17 verbose etag W/"58401b5f-dcbb"
+18 verbose lastModified Thu, 01 Dec 2016 12:45:19 GMT
+19 http request GET https://registry.npmjs.org/bluetooth-serial-port
+20 http 304 https://registry.npmjs.org/bluetooth-serial-port
+21 verbose headers { date: 'Sat, 21 Jan 2017 15:43:25 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: 'W/"58401b5f-dcbb"',
+21 verbose headers   age: '0',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-lhr6349-LHR',
+21 verbose headers   'x-cache': 'MISS',
+21 verbose headers   'x-cache-hits': '0',
+21 verbose headers   'x-timer': 'S1485013405.510073,VS0,VE106',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Sat, 21 Jan 2017 15:43:25 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: 'W/"58401b5f-dcbb"',
+22 silly get     age: '0',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-lhr6349-LHR',
+22 silly get     'x-cache': 'MISS',
+22 silly get     'x-cache-hits': '0',
+22 silly get     'x-timer': 'S1485013405.510073,VS0,VE106',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose etag https://registry.npmjs.org/bluetooth-serial-port from cache
+24 verbose get saving bluetooth-serial-port to C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\npm_cache\registry.npmjs.org\bluetooth-serial-port\.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule bluetooth-serial-port@2.1.1 checking installable status
+38 silly cache add args [ 'bluetooth-serial-port', null ]
+39 verbose cache add spec bluetooth-serial-port
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'bluetooth-serial-port',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'bluetooth-serial-port',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: '*',
+40 silly cache add   type: 'range' }
+41 silly addNamed bluetooth-serial-port@*
+42 verbose addNamed "*" is a valid semver range for bluetooth-serial-port
+43 silly addNameRange { name: 'bluetooth-serial-port', range: '*', hasData: false }
+44 silly mapToRegistry name bluetooth-serial-port
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/bluetooth-serial-port
+48 verbose addNameRange registry:https://registry.npmjs.org/bluetooth-serial-port not in flight; fetching
+49 verbose get https://registry.npmjs.org/bluetooth-serial-port not expired, no request
+50 silly addNameRange number 2 { name: 'bluetooth-serial-port', range: '*', hasData: true }
+51 silly addNameRange versions [ 'bluetooth-serial-port',
+51 silly addNameRange   [ '0.1.0',
+51 silly addNameRange     '0.1.1',
+51 silly addNameRange     '0.1.3',
+51 silly addNameRange     '0.1.4',
+51 silly addNameRange     '0.1.5',
+51 silly addNameRange     '0.1.6',
+51 silly addNameRange     '0.1.7',
+51 silly addNameRange     '0.1.8',
+51 silly addNameRange     '0.1.9',
+51 silly addNameRange     '0.1.10',
+51 silly addNameRange     '0.1.11',
+51 silly addNameRange     '0.1.12',
+51 silly addNameRange     '0.2.0',
+51 silly addNameRange     '0.2.1',
+51 silly addNameRange     '1.0.0',
+51 silly addNameRange     '1.0.1',
+51 silly addNameRange     '1.0.2',
+51 silly addNameRange     '1.0.3',
+51 silly addNameRange     '1.0.4',
+51 silly addNameRange     '1.0.5',
+51 silly addNameRange     '1.1.1',
+51 silly addNameRange     '1.1.2',
+51 silly addNameRange     '1.1.3',
+51 silly addNameRange     '1.1.4',
+51 silly addNameRange     '1.2.0',
+51 silly addNameRange     '1.2.1',
+51 silly addNameRange     '1.2.2',
+51 silly addNameRange     '1.2.3',
+51 silly addNameRange     '1.2.4',
+51 silly addNameRange     '1.2.5',
+51 silly addNameRange     '1.2.6',
+51 silly addNameRange     '1.3.1',
+51 silly addNameRange     '2.0.0',
+51 silly addNameRange     '2.1.0',
+51 silly addNameRange     '2.1.1' ] ]
+52 silly addNamed bluetooth-serial-port@2.1.1
+53 verbose addNamed "2.1.1" is a plain semver version for bluetooth-serial-port
+54 silly cache afterAdd bluetooth-serial-port@2.1.1
+55 verbose afterAdd C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\npm_cache\bluetooth-serial-port\2.1.1\package\package.json not in flight; writing
+56 verbose afterAdd C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\npm_cache\bluetooth-serial-port\2.1.1\package\package.json written
+57 silly fetchNamedPackageData bindings
+58 silly mapToRegistry name bindings
+59 silly mapToRegistry using default registry
+60 silly mapToRegistry registry https://registry.npmjs.org/
+61 silly mapToRegistry uri https://registry.npmjs.org/bindings
+62 silly fetchNamedPackageData nan
+63 silly mapToRegistry name nan
+64 silly mapToRegistry using default registry
+65 silly mapToRegistry registry https://registry.npmjs.org/
+66 silly mapToRegistry uri https://registry.npmjs.org/nan
+67 verbose request uri https://registry.npmjs.org/bindings
+68 verbose request no auth needed
+69 info attempt registry request try #1 at 16:43:26
+70 verbose etag W/"580645d3-46f7"
+71 verbose lastModified Tue, 18 Oct 2016 15:54:59 GMT
+72 http request GET https://registry.npmjs.org/bindings
+73 verbose request uri https://registry.npmjs.org/nan
+74 verbose request no auth needed
+75 info attempt registry request try #1 at 16:43:26
+76 verbose etag W/"585acecf-1d7db"
+77 verbose lastModified Wed, 21 Dec 2016 18:49:51 GMT
+78 http request GET https://registry.npmjs.org/nan
+79 http 304 https://registry.npmjs.org/bindings
+80 verbose headers { date: 'Sat, 21 Jan 2017 15:43:26 GMT',
+80 verbose headers   via: '1.1 varnish',
+80 verbose headers   'cache-control': 'max-age=300',
+80 verbose headers   etag: 'W/"580645d3-46f7"',
+80 verbose headers   age: '78',
+80 verbose headers   connection: 'keep-alive',
+80 verbose headers   'x-served-by': 'cache-lhr6337-LHR',
+80 verbose headers   'x-cache': 'HIT',
+80 verbose headers   'x-cache-hits': '1',
+80 verbose headers   'x-timer': 'S1485013406.222666,VS0,VE0',
+80 verbose headers   vary: 'Accept-Encoding' }
+81 silly get cb [ 304,
+81 silly get   { date: 'Sat, 21 Jan 2017 15:43:26 GMT',
+81 silly get     via: '1.1 varnish',
+81 silly get     'cache-control': 'max-age=300',
+81 silly get     etag: 'W/"580645d3-46f7"',
+81 silly get     age: '78',
+81 silly get     connection: 'keep-alive',
+81 silly get     'x-served-by': 'cache-lhr6337-LHR',
+81 silly get     'x-cache': 'HIT',
+81 silly get     'x-cache-hits': '1',
+81 silly get     'x-timer': 'S1485013406.222666,VS0,VE0',
+81 silly get     vary: 'Accept-Encoding' } ]
+82 verbose etag https://registry.npmjs.org/bindings from cache
+83 verbose get saving bindings to C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\npm_cache\registry.npmjs.org\bindings\.cache.json
+84 http 304 https://registry.npmjs.org/nan
+85 verbose headers { date: 'Sat, 21 Jan 2017 15:43:26 GMT',
+85 verbose headers   via: '1.1 varnish',
+85 verbose headers   'cache-control': 'max-age=300',
+85 verbose headers   etag: 'W/"585acecf-1d7db"',
+85 verbose headers   age: '256',
+85 verbose headers   connection: 'keep-alive',
+85 verbose headers   'x-served-by': 'cache-lhr6339-LHR',
+85 verbose headers   'x-cache': 'HIT',
+85 verbose headers   'x-cache-hits': '2',
+85 verbose headers   'x-timer': 'S1485013406.223021,VS0,VE0',
+85 verbose headers   vary: 'Accept-Encoding' }
+86 silly get cb [ 304,
+86 silly get   { date: 'Sat, 21 Jan 2017 15:43:26 GMT',
+86 silly get     via: '1.1 varnish',
+86 silly get     'cache-control': 'max-age=300',
+86 silly get     etag: 'W/"585acecf-1d7db"',
+86 silly get     age: '256',
+86 silly get     connection: 'keep-alive',
+86 silly get     'x-served-by': 'cache-lhr6339-LHR',
+86 silly get     'x-cache': 'HIT',
+86 silly get     'x-cache-hits': '2',
+86 silly get     'x-timer': 'S1485013406.223021,VS0,VE0',
+86 silly get     vary: 'Accept-Encoding' } ]
+87 verbose etag https://registry.npmjs.org/nan from cache
+88 verbose get saving nan to C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\npm_cache\registry.npmjs.org\nan\.cache.json
+89 silly resolveWithNewModule bindings@1.1.1 checking installable status
+90 silly cache add args [ 'bindings@1.1.x', null ]
+91 verbose cache add spec bindings@1.1.x
+92 silly cache add parsed spec Result {
+92 silly cache add   raw: 'bindings@1.1.x',
+92 silly cache add   scope: null,
+92 silly cache add   name: 'bindings',
+92 silly cache add   rawSpec: '1.1.x',
+92 silly cache add   spec: '>=1.1.0 <1.2.0',
+92 silly cache add   type: 'range' }
+93 silly addNamed bindings@>=1.1.0 <1.2.0
+94 verbose addNamed ">=1.1.0 <1.2.0" is a valid semver range for bindings
+95 silly addNameRange { name: 'bindings', range: '>=1.1.0 <1.2.0', hasData: false }
+96 silly mapToRegistry name bindings
+97 silly mapToRegistry using default registry
+98 silly mapToRegistry registry https://registry.npmjs.org/
+99 silly mapToRegistry uri https://registry.npmjs.org/bindings
+100 verbose addNameRange registry:https://registry.npmjs.org/bindings not in flight; fetching
+101 verbose get https://registry.npmjs.org/bindings not expired, no request
+102 silly addNameRange number 2 { name: 'bindings', range: '>=1.1.0 <1.2.0', hasData: true }
+103 silly addNameRange versions [ 'bindings',
+103 silly addNameRange   [ '0.0.1',
+103 silly addNameRange     '0.1.0',
+103 silly addNameRange     '0.1.1',
+103 silly addNameRange     '0.2.0',
+103 silly addNameRange     '0.2.1',
+103 silly addNameRange     '0.2.2',
+103 silly addNameRange     '0.2.3',
+103 silly addNameRange     '0.2.4',
+103 silly addNameRange     '0.3.0',
+103 silly addNameRange     '0.4.0',
+103 silly addNameRange     '1.0.0',
+103 silly addNameRange     '1.1.0',
+103 silly addNameRange     '1.1.1',
+103 silly addNameRange     '1.2.0',
+103 silly addNameRange     '1.2.1' ] ]
+104 silly addNamed bindings@1.1.1
+105 verbose addNamed "1.1.1" is a plain semver version for bindings
+106 silly cache afterAdd bindings@1.1.1
+107 verbose afterAdd C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\npm_cache\bindings\1.1.1\package\package.json not in flight; writing
+108 silly resolveWithNewModule nan@2.5.0 checking installable status
+109 silly cache add args [ 'nan@latest', null ]
+110 verbose cache add spec nan@latest
+111 silly cache add parsed spec Result {
+111 silly cache add   raw: 'nan@latest',
+111 silly cache add   scope: null,
+111 silly cache add   name: 'nan',
+111 silly cache add   rawSpec: 'latest',
+111 silly cache add   spec: 'latest',
+111 silly cache add   type: 'tag' }
+112 silly addNamed nan@latest
+113 verbose addNamed "latest" is being treated as a dist-tag for nan
+114 info addNameTag [ 'nan', 'latest' ]
+115 silly mapToRegistry name nan
+116 silly mapToRegistry using default registry
+117 silly mapToRegistry registry https://registry.npmjs.org/
+118 silly mapToRegistry uri https://registry.npmjs.org/nan
+119 verbose addNameTag registry:https://registry.npmjs.org/nan not in flight; fetching
+120 verbose get https://registry.npmjs.org/nan not expired, no request
+121 silly addNameTag next cb for nan with tag latest
+122 silly addNamed nan@2.5.0
+123 verbose addNamed "2.5.0" is a plain semver version for nan
+124 verbose afterAdd C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\npm_cache\bindings\1.1.1\package\package.json written
+125 silly cache afterAdd nan@2.5.0
+126 verbose afterAdd C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\npm_cache\nan\2.5.0\package\package.json not in flight; writing
+127 verbose afterAdd C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\npm_cache\nan\2.5.0\package\package.json written
+128 silly loadAllDepsIntoIdealTree Finishing
+129 silly idealTree:prePrune C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data
+129 silly idealTree:prePrune └─┬ bluetooth-serial-port@2.1.1
+129 silly idealTree:prePrune   ├── bindings@1.1.1
+129 silly idealTree:prePrune   └── nan@2.5.0
+130 silly loadIdealTree Finishing
+131 silly currentTree C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data
+132 silly idealTree C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data
+132 silly idealTree └─┬ bluetooth-serial-port@2.1.1
+132 silly idealTree   ├── bindings@1.1.1
+132 silly idealTree   └── nan@2.5.0
+133 silly generateActionsToTake Starting
+134 silly install generateActionsToTake
+135 silly generateActionsToTake Finishing
+136 silly diffTrees action count 3
+137 silly diffTrees add bindings@1.1.1
+138 silly diffTrees add nan@2.5.0
+139 silly diffTrees add bluetooth-serial-port@2.1.1
+140 silly decomposeActions action count 24
+141 silly decomposeActions fetch bindings@1.1.1
+142 silly decomposeActions extract bindings@1.1.1
+143 silly decomposeActions preinstall bindings@1.1.1
+144 silly decomposeActions build bindings@1.1.1
+145 silly decomposeActions install bindings@1.1.1
+146 silly decomposeActions postinstall bindings@1.1.1
+147 silly decomposeActions test bindings@1.1.1
+148 silly decomposeActions finalize bindings@1.1.1
+149 silly decomposeActions fetch nan@2.5.0
+150 silly decomposeActions extract nan@2.5.0
+151 silly decomposeActions preinstall nan@2.5.0
+152 silly decomposeActions build nan@2.5.0
+153 silly decomposeActions install nan@2.5.0
+154 silly decomposeActions postinstall nan@2.5.0
+155 silly decomposeActions test nan@2.5.0
+156 silly decomposeActions finalize nan@2.5.0
+157 silly decomposeActions fetch bluetooth-serial-port@2.1.1
+158 silly decomposeActions extract bluetooth-serial-port@2.1.1
+159 silly decomposeActions preinstall bluetooth-serial-port@2.1.1
+160 silly decomposeActions build bluetooth-serial-port@2.1.1
+161 silly decomposeActions install bluetooth-serial-port@2.1.1
+162 silly decomposeActions postinstall bluetooth-serial-port@2.1.1
+163 silly decomposeActions test bluetooth-serial-port@2.1.1
+164 silly decomposeActions finalize bluetooth-serial-port@2.1.1
+165 silly executeActions Starting
+166 silly install executeActions
+167 silly doSerial global-install 0
+168 silly doParallel fetch 3
+169 verbose lock using C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\npm_cache\_locks\staging-07fe7789cf938ef0.lock for C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging
+170 silly doParallel extract 3
+171 silly extract bindings
+172 silly extract nan
+173 silly extract bluetooth-serial-port
+174 verbose unbuild node_modules\.staging\bluetooth-serial-port-beeae386ca3e90490e5739fdec697dda
+175 silly gentlyRm C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging\bluetooth-serial-port-beeae386ca3e90490e5739fdec697dda is being purged from base C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data
+176 verbose gentlyRm don't care about contents; nuking C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging\bluetooth-serial-port-beeae386ca3e90490e5739fdec697dda
+177 verbose tar unpack C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\npm_cache\bluetooth-serial-port\2.1.1\package.tgz
+178 verbose tar unpacking to C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging\bluetooth-serial-port-beeae386ca3e90490e5739fdec697dda
+179 silly gentlyRm C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging\bluetooth-serial-port-beeae386ca3e90490e5739fdec697dda is being purged
+180 verbose gentlyRm don't care about contents; nuking C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging\bluetooth-serial-port-beeae386ca3e90490e5739fdec697dda
+181 silly gunzTarPerm modes [ '777', '666' ]
+182 silly gunzTarPerm extractEntry package.json
+183 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+184 silly gunzTarPerm extractEntry README.md
+185 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+186 silly gunzTarPerm extractEntry binding.gyp
+187 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+188 silly gunzTarPerm extractEntry LICENSE.md
+189 silly gunzTarPerm modified mode [ 'LICENSE.md', 420, 438 ]
+190 silly gunzTarPerm extractEntry RELEASE_NOTES.md
+191 silly gunzTarPerm modified mode [ 'RELEASE_NOTES.md', 420, 438 ]
+192 verbose unbuild node_modules\.staging\nan-7b8423d4f769549ab433c2fe4a4b2f80
+193 silly gentlyRm C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging\nan-7b8423d4f769549ab433c2fe4a4b2f80 is being purged from base C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data
+194 verbose gentlyRm don't care about contents; nuking C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging\nan-7b8423d4f769549ab433c2fe4a4b2f80
+195 verbose tar unpack C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\npm_cache\nan\2.5.0\package.tgz
+196 verbose tar unpacking to C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging\nan-7b8423d4f769549ab433c2fe4a4b2f80
+197 silly gentlyRm C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging\nan-7b8423d4f769549ab433c2fe4a4b2f80 is being purged
+198 verbose gentlyRm don't care about contents; nuking C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging\nan-7b8423d4f769549ab433c2fe4a4b2f80
+199 silly gunzTarPerm modes [ '777', '666' ]
+200 silly gunzTarPerm extractEntry package.json
+201 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+202 silly gunzTarPerm extractEntry README.md
+203 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+204 silly gunzTarPerm extractEntry include_dirs.js
+205 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 438 ]
+206 silly gunzTarPerm extractEntry appveyor.yml
+207 silly gunzTarPerm modified mode [ 'appveyor.yml', 420, 438 ]
+208 silly gunzTarPerm extractEntry nan_converters.h
+209 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 438 ]
+210 silly gunzTarPerm extractEntry CHANGELOG.md
+211 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 438 ]
+212 silly gunzTarPerm extractEntry LICENSE.md
+213 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 438 ]
+214 silly gunzTarPerm extractEntry doc/node_misc.md
+215 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 438 ]
+216 silly gunzTarPerm extractEntry .travis.yml
+217 silly gunzTarPerm modified mode [ '.travis.yml', 420, 438 ]
+218 silly gunzTarPerm extractEntry examples/async.js
+219 silly gunzTarPerm modified mode [ 'examples/async.js', 420, 438 ]
+220 silly gunzTarPerm extractEntry doc/asyncworker.md
+221 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 438 ]
+222 silly gunzTarPerm extractEntry doc/callback.md
+223 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 438 ]
+224 verbose unbuild node_modules\.staging\bindings-b983424e7dce63b11e97d12f35f40611
+225 silly gentlyRm C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging\bindings-b983424e7dce63b11e97d12f35f40611 is being purged from base C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data
+226 verbose gentlyRm don't care about contents; nuking C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging\bindings-b983424e7dce63b11e97d12f35f40611
+227 verbose tar unpack C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\npm_cache\bindings\1.1.1\package.tgz
+228 verbose tar unpacking to C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging\bindings-b983424e7dce63b11e97d12f35f40611
+229 silly gentlyRm C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging\bindings-b983424e7dce63b11e97d12f35f40611 is being purged
+230 silly gunzTarPerm extractEntry doc/converters.md
+231 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 438 ]
+232 silly gunzTarPerm extractEntry doc/errors.md
+233 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 438 ]
+234 verbose gentlyRm don't care about contents; nuking C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging\bindings-b983424e7dce63b11e97d12f35f40611
+235 silly gunzTarPerm extractEntry examples/sync.js
+236 silly gunzTarPerm modified mode [ 'examples/sync.js', 420, 438 ]
+237 silly gunzTarPerm extractEntry lib/bluetooth-serial-port.js
+238 silly gunzTarPerm modified mode [ 'lib/bluetooth-serial-port.js', 420, 438 ]
+239 silly gunzTarPerm modes [ '777', '666' ]
+240 silly gunzTarPerm extractEntry doc/maybe_types.md
+241 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 438 ]
+242 silly gunzTarPerm extractEntry doc/methods.md
+243 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 438 ]
+244 silly gunzTarPerm extractEntry doc/new.md
+245 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 438 ]
+246 silly gunzTarPerm extractEntry package.json
+247 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+248 silly gunzTarPerm extractEntry lib/device-inquiry.js
+249 silly gunzTarPerm modified mode [ 'lib/device-inquiry.js', 420, 438 ]
+250 silly gunzTarPerm extractEntry src/BTSerialPortBinding.h
+251 silly gunzTarPerm modified mode [ 'src/BTSerialPortBinding.h', 420, 438 ]
+252 silly gunzTarPerm extractEntry README.md
+253 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+254 silly gunzTarPerm extractEntry bindings.js
+255 silly gunzTarPerm modified mode [ 'bindings.js', 420, 438 ]
+256 silly gunzTarPerm extractEntry doc/buffers.md
+257 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 438 ]
+258 silly gunzTarPerm extractEntry doc/object_wrappers.md
+259 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 438 ]
+260 silly gunzTarPerm extractEntry src/BTSerialPortBindingServer.h
+261 silly gunzTarPerm modified mode [ 'src/BTSerialPortBindingServer.h', 420, 438 ]
+262 silly gunzTarPerm extractEntry src/DeviceINQ.h
+263 silly gunzTarPerm modified mode [ 'src/DeviceINQ.h', 420, 438 ]
+264 silly gunzTarPerm extractEntry doc/persistent.md
+265 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 438 ]
+266 silly gunzTarPerm extractEntry doc/scopes.md
+267 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 438 ]
+268 silly gunzTarPerm extractEntry src/linux/BTSerialPortBinding.cc
+269 silly gunzTarPerm modified mode [ 'src/linux/BTSerialPortBinding.cc', 420, 438 ]
+270 silly gunzTarPerm extractEntry src/linux/BTSerialPortBindingServer.cc
+271 silly gunzTarPerm modified mode [ 'src/linux/BTSerialPortBindingServer.cc', 420, 438 ]
+272 silly gunzTarPerm extractEntry doc/script.md
+273 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 438 ]
+274 silly gunzTarPerm extractEntry doc/string_bytes.md
+275 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 438 ]
+276 silly gunzTarPerm extractEntry src/linux/BluetoothSerialPort.cc
+277 silly gunzTarPerm modified mode [ 'src/linux/BluetoothSerialPort.cc', 420, 438 ]
+278 silly gunzTarPerm extractEntry src/linux/BluetoothSerialPortServer.cc
+279 silly gunzTarPerm modified mode [ 'src/linux/BluetoothSerialPortServer.cc', 420, 438 ]
+280 silly gunzTarPerm extractEntry doc/v8_internals.md
+281 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 438 ]
+282 silly gunzTarPerm extractEntry doc/v8_misc.md
+283 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 438 ]
+284 silly gunzTarPerm extractEntry src/linux/DeviceINQ.cc
+285 silly gunzTarPerm modified mode [ 'src/linux/DeviceINQ.cc', 420, 438 ]
+286 silly gunzTarPerm extractEntry src/ngx-queue.h
+287 silly gunzTarPerm modified mode [ 'src/ngx-queue.h', 420, 438 ]
+288 silly gunzTarPerm extractEntry nan.h
+289 silly gunzTarPerm modified mode [ 'nan.h', 436, 438 ]
+290 silly gunzTarPerm extractEntry nan_callbacks.h
+291 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 438 ]
+292 silly gunzTarPerm extractEntry src/osx/BTSerialPortBinding.mm
+293 silly gunzTarPerm modified mode [ 'src/osx/BTSerialPortBinding.mm', 420, 438 ]
+294 silly gunzTarPerm extractEntry src/osx/BluetoothDeviceResources.h
+295 silly gunzTarPerm modified mode [ 'src/osx/BluetoothDeviceResources.h', 420, 438 ]
+296 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+297 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 438 ]
+298 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+299 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 438 ]
+300 silly gunzTarPerm extractEntry src/osx/BluetoothDeviceResources.mm
+301 silly gunzTarPerm modified mode [ 'src/osx/BluetoothDeviceResources.mm', 420, 438 ]
+302 silly gunzTarPerm extractEntry src/osx/BluetoothSerialPort.mm
+303 silly gunzTarPerm modified mode [ 'src/osx/BluetoothSerialPort.mm', 420, 438 ]
+304 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+305 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 438 ]
+306 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+307 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 438 ]
+308 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+309 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 438 ]
+310 silly gunzTarPerm extractEntry src/osx/BluetoothWorker.h
+311 silly gunzTarPerm modified mode [ 'src/osx/BluetoothWorker.h', 420, 438 ]
+312 silly gunzTarPerm extractEntry src/osx/BluetoothWorker.mm
+313 silly gunzTarPerm modified mode [ 'src/osx/BluetoothWorker.mm', 420, 438 ]
+314 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+315 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 438 ]
+316 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+317 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 438 ]
+318 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+319 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 438 ]
+320 silly gunzTarPerm extractEntry nan_new.h
+321 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 438 ]
+322 silly gunzTarPerm extractEntry src/osx/DeviceINQ.mm
+323 silly gunzTarPerm modified mode [ 'src/osx/DeviceINQ.mm', 420, 438 ]
+324 silly gunzTarPerm extractEntry src/osx/pipe.c
+325 silly gunzTarPerm modified mode [ 'src/osx/pipe.c', 420, 438 ]
+326 silly gunzTarPerm extractEntry nan_object_wrap.h
+327 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 438 ]
+328 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+329 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 438 ]
+330 silly gunzTarPerm extractEntry src/osx/pipe.h
+331 silly gunzTarPerm modified mode [ 'src/osx/pipe.h', 420, 438 ]
+332 silly gunzTarPerm extractEntry src/windows/BTSerialPortBinding.cc
+333 silly gunzTarPerm modified mode [ 'src/windows/BTSerialPortBinding.cc', 420, 438 ]
+334 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+335 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 438 ]
+336 silly gunzTarPerm extractEntry nan_private.h
+337 silly gunzTarPerm modified mode [ 'nan_private.h', 436, 438 ]
+338 silly gunzTarPerm extractEntry src/windows/BluetoothHelpers.cc
+339 silly gunzTarPerm modified mode [ 'src/windows/BluetoothHelpers.cc', 420, 438 ]
+340 silly gunzTarPerm extractEntry src/windows/BluetoothHelpers.h
+341 silly gunzTarPerm modified mode [ 'src/windows/BluetoothHelpers.h', 420, 438 ]
+342 silly gunzTarPerm extractEntry src/windows/BluetoothSerialPort.cc
+343 silly gunzTarPerm modified mode [ 'src/windows/BluetoothSerialPort.cc', 420, 438 ]
+344 silly gunzTarPerm extractEntry src/windows/DeviceINQ.cc
+345 silly gunzTarPerm modified mode [ 'src/windows/DeviceINQ.cc', 420, 438 ]
+346 silly gunzTarPerm extractEntry nan_string_bytes.h
+347 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 438 ]
+348 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+349 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 438 ]
+350 silly gunzTarPerm extractEntry Dockerfile
+351 silly gunzTarPerm modified mode [ 'Dockerfile', 420, 438 ]
+352 silly gunzTarPerm extractEntry test/index.js
+353 silly gunzTarPerm modified mode [ 'test/index.js', 420, 438 ]
+354 silly gunzTarPerm extractEntry nan_weak.h
+355 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 438 ]
+356 silly gunzTarPerm extractEntry tools/package.json
+357 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 438 ]
+358 silly gunzTarPerm extractEntry tools/README.md
+359 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 438 ]
+360 silly gunzTarPerm extractEntry tools/1to2.js
+361 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 511 ]
+362 silly doParallel preinstall 3
+363 silly preinstall bindings C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging\bindings-b983424e7dce63b11e97d12f35f40611
+364 info lifecycle bindings@1.1.1~preinstall: bindings@1.1.1
+365 silly preinstall nan C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging\nan-7b8423d4f769549ab433c2fe4a4b2f80
+366 info lifecycle nan@2.5.0~preinstall: nan@2.5.0
+367 silly preinstall bluetooth-serial-port C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging\bluetooth-serial-port-beeae386ca3e90490e5739fdec697dda
+368 info lifecycle bluetooth-serial-port@2.1.1~preinstall: bluetooth-serial-port@2.1.1
+369 silly lifecycle bindings@1.1.1~preinstall: no script for preinstall, continuing
+370 silly lifecycle nan@2.5.0~preinstall: no script for preinstall, continuing
+371 silly lifecycle bluetooth-serial-port@2.1.1~preinstall: no script for preinstall, continuing
+372 silly doReverseSerial remove 0
+373 silly doSerial move 0
+374 silly doSerial finalize 3
+375 silly finalize C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\bluetooth-serial-port\node_modules\bindings
+376 silly finalize C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\bluetooth-serial-port\node_modules\nan
+377 silly finalize C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\bluetooth-serial-port
+378 silly doSerial build 3
+379 silly build bindings
+380 info linkStuff bindings@1.1.1
+381 silly linkStuff bindings@1.1.1 has C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\bluetooth-serial-port\node_modules as its parent node_modules
+382 silly linkStuff bindings@1.1.1 is part of a global install
+383 silly linkStuff bindings@1.1.1 is installed into a global node_modules
+384 verbose linkBins bindings@1.1.1
+385 verbose linkMans bindings@1.1.1
+386 verbose rebuildBundles bindings@1.1.1
+387 silly build nan
+388 info linkStuff nan@2.5.0
+389 silly linkStuff nan@2.5.0 has C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\bluetooth-serial-port\node_modules as its parent node_modules
+390 silly linkStuff nan@2.5.0 is part of a global install
+391 silly linkStuff nan@2.5.0 is installed into a global node_modules
+392 verbose linkBins nan@2.5.0
+393 verbose linkMans nan@2.5.0
+394 verbose rebuildBundles nan@2.5.0
+395 silly build bluetooth-serial-port
+396 info linkStuff bluetooth-serial-port@2.1.1
+397 silly linkStuff bluetooth-serial-port@2.1.1 has C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules as its parent node_modules
+398 silly linkStuff bluetooth-serial-port@2.1.1 is part of a global install
+399 silly linkStuff bluetooth-serial-port@2.1.1 is installed into a global node_modules
+400 silly linkStuff bluetooth-serial-port@2.1.1 is installed into the top-level global node_modules
+401 verbose linkBins bluetooth-serial-port@2.1.1
+402 verbose linkMans bluetooth-serial-port@2.1.1
+403 verbose rebuildBundles bluetooth-serial-port@2.1.1
+404 verbose rebuildBundles [ 'bindings', 'nan' ]
+405 silly doSerial global-link 0
+406 silly doParallel update-linked 0
+407 silly doSerial install 3
+408 silly install bindings C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging\bindings-b983424e7dce63b11e97d12f35f40611
+409 info lifecycle bindings@1.1.1~install: bindings@1.1.1
+410 silly lifecycle bindings@1.1.1~install: no script for install, continuing
+411 silly install nan C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging\nan-7b8423d4f769549ab433c2fe4a4b2f80
+412 info lifecycle nan@2.5.0~install: nan@2.5.0
+413 silly lifecycle nan@2.5.0~install: no script for install, continuing
+414 silly install bluetooth-serial-port C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging\bluetooth-serial-port-beeae386ca3e90490e5739fdec697dda
+415 info lifecycle bluetooth-serial-port@2.1.1~install: bluetooth-serial-port@2.1.1
+416 verbose lifecycle bluetooth-serial-port@2.1.1~install: unsafe-perm in lifecycle true
+417 verbose lifecycle bluetooth-serial-port@2.1.1~install: PATH: C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\npm\bin\node-gyp-bin;C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\bluetooth-serial-port\node_modules\.bin;C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.bin;C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\App\NodeJS;C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Aurélie\AppData\Local\Microsoft\WindowsApps
+418 verbose lifecycle bluetooth-serial-port@2.1.1~install: CWD: C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\bluetooth-serial-port
+419 silly lifecycle bluetooth-serial-port@2.1.1~install: Args: [ '/d /s /c', 'node-gyp configure build' ]
+420 silly lifecycle bluetooth-serial-port@2.1.1~install: Returned: code: 1  signal: null
+421 info lifecycle bluetooth-serial-port@2.1.1~install: Failed to exec install script
+422 verbose unlock done using C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\npm_cache\_locks\staging-07fe7789cf938ef0.lock for C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\.staging
+423 silly rollbackFailedOptional Starting
+424 silly rollbackFailedOptional Finishing
+425 silly runTopLevelLifecycles Starting
+426 silly runTopLevelLifecycles Finishing
+427 silly install printInstalled
+428 verbose stack Error: bluetooth-serial-port@2.1.1 install: `node-gyp configure build`
+428 verbose stack Exit status 1
+428 verbose stack     at EventEmitter.<anonymous> (C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\npm\lib\utils\lifecycle.js:233:16)
+428 verbose stack     at emitTwo (events.js:87:13)
+428 verbose stack     at EventEmitter.emit (events.js:172:7)
+428 verbose stack     at ChildProcess.<anonymous> (C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data\node_modules\npm\lib\utils\spawn.js:24:14)
+428 verbose stack     at emitTwo (events.js:87:13)
+428 verbose stack     at ChildProcess.emit (events.js:172:7)
+428 verbose stack     at maybeClose (internal/child_process.js:818:16)
+428 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+429 verbose pkgid bluetooth-serial-port@2.1.1
+430 verbose cwd C:\Users\Aurélie\Downloads\24hDuCode\24h_code_6emeEdition_server\Data
+431 error Windows_NT 10.0.14393
+432 error argv "C:\\Users\\Aurélie\\Downloads\\24hDuCode\\24h_code_6emeEdition_server\\App\\NodeJS\\node.exe" "C:\\Users\\Aurélie\\Downloads\\24hDuCode\\24h_code_6emeEdition_server\\Data\\node_modules\\npm\\bin\\npm-cli.js" "install" "bluetooth-serial-port"
+433 error node v4.2.1
+434 error npm  v3.3.6
+435 error code ELIFECYCLE
+436 error bluetooth-serial-port@2.1.1 install: `node-gyp configure build`
+436 error Exit status 1
+437 error Failed at the bluetooth-serial-port@2.1.1 install script 'node-gyp configure build'.
+437 error This is most likely a problem with the bluetooth-serial-port package,
+437 error not with npm itself.
+437 error Tell the author that this fails on your system:
+437 error     node-gyp configure build
+437 error You can get their info via:
+437 error     npm owner ls bluetooth-serial-port
+437 error There is likely additional logging output above.
+438 verbose exit [ 1, true ]
